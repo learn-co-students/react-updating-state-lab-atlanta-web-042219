@@ -28,7 +28,7 @@ export default class YoutubeDebugger extends Component {
       settings: {
         ...this.state.settings,
         video: {
-          ...this.state.video,
+          ...this.state.settings.video,
           resolution: '720p'
         }
       }
